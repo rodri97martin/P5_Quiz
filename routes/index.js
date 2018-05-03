@@ -6,11 +6,11 @@ var sequelize = require('../models/index')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index');
 });
 
 router.get('/credits', function(req, res, next) {
-    res.render('credits', { name: 'Rodrigo Martín Martín' });
+    res.render('credits');
 });
 
 router.get('/quizzes', function(req, res, next) {
